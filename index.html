@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Myna Mood Predictor</title>
+  <style>
+    body {
+      background: #fefbe9;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      color: #4b2e83;
+    }
+
+    .myna-container {
+      margin-top: 20px;
+      font-size: 80px;
+    }
+
+    .result {
+      margin-top: 20px;
+      font-size: 1.5rem;
+      color: #1b4332;
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border: none;
+      background: #90e0ef;
+      color: #03045e;
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 2px 2px 6px #aaa;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #00b4d8;
+    }
+  </style>
+</head>
+<body>
+
+  <h1></h1>
+  <div class="myna-container" id="mynaContainer">Click to see your mynas</div>
+  <div class="result" id="result"></div>
+  <button onclick="predictDay()">Check Aishwaryam</button>
+
+  <script>
+    function predictDay() {
+      const container = document.getElementById("mynaContainer");
+      const result = document.getElementById("result");
+  
+      const number = Math.random() < 0.5 ? 1 : 2;
+  
+      const myna = "🐦";
+      container.innerHTML = myna.repeat(number);
+  
+      if (number === 1) {
+        result.innerHTML = `
+          🫠 എന്റെ ദൈവമേ... ഒരു മൈനയും കൂടെ ഒപ്പിക്കാവോ <br/>
+          <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzQyc2xqam5mczVyNGVveDR2M3c5Yndld2UwbjFldHVrd3RwazNkYiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/btdKdBz6Pw4Ks/giphy.gif" alt="Bad Day" width="200"/>
+        `;
+      } else {
+        result.innerHTML = `
+         ഇന്ന് ഞാൻ പൊളിക്കും 💥🔥<br/>
+          <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3c2U2dW91MHBoNnM2czc0OGdrMTBoOGQweHdhd2pqMDlkd3kwNTh6ZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RJbk1xs8d3CqtoKNdU/giphy.gif" alt="Good Day" width="200"/>
+        `;
+      }
+    }
+  </script>
+
+</body>
+</html>
