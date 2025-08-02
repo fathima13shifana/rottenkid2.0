@@ -1,7 +1,7 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# AiShWaRyAm! 🎯
+ഓരോരോ അന്ധവിശ്വാസങ്ങൾ 🎯
 
 
 ## Basic Details
@@ -42,19 +42,19 @@ git hub
 For Software:
 
 # Screenshots (Add at least 3)
+https://raw.githubusercontent.com/fathima13shifana/rottenkid2.0/e5df840cf350a55774ac7c383775eb41da7f3943/Screenshot%202025-08-02%20075330.png
+front page
 
+https://raw.githubusercontent.com/fathima13shifana/rottenkid2.0/e5df840cf350a55774ac7c383775eb41da7f3943/Screenshot%202025-08-02%20075350.png
+![Screenshot3]
+https://raw.githubusercontent.com/fathima13shifana/rottenkid2.0/e5df840cf350a55774ac7c383775eb41da7f3943/Screenshot%202025-08-02%20075403.png
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
+video demo:https://drive.google.com/drive/folders/13-zaE_v_XhOlgjyj4y_-wVe12MgWX-u1?usp=sharing
 
 
 ## Team Contributions
 - Fathima Shifana : Github,git
-- [Name 2]:Coding part
+- Sona Shahiry:Coding part
 ---
 Made with ❤️ at TinkerHub Useless Projects 
 
